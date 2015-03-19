@@ -48,6 +48,7 @@ MetroWindow {
     }
     //*/
 
+    //*/
     MetroTabView{
         Tab{
             title:"MetroButton";
@@ -105,4 +106,5 @@ MetroWindow {
             }
         }
     }
+    //*/
 }
