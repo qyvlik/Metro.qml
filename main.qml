@@ -31,6 +31,16 @@ MetroWindow {
                 MetroTextField{
                     placeholderText:"Input password";
                     echoMode:TextInput.Password ;
+                    MetroTooltip{
+                        id:tip;
+                        text:"大写锁定键开启";
+                        width: 150;
+                        height: 60;
+                        anchors.bottom: parent.top;
+                        anchors.bottomMargin: -25
+                        anchors.left: parent.right;
+                        anchors.leftMargin: width / 2;
+                    }
                 }
 
                 MetroCheckBox{
@@ -46,6 +56,7 @@ MetroWindow {
             }
         }
     }
+
     //*/
 
     //*/
@@ -102,9 +113,20 @@ MetroWindow {
                 MetroTextField{
                     placeholderText:"MetroTextField";
                     anchors.centerIn: parent;
+                    MetroTooltip{
+                        id:tip;
+                        text:"大写锁定键开启";
+                        width: 150;
+                        height: 60;
+//                        anchors.bottom: parent.top;
+//                        anchors.bottomMargin: -25
+//                        anchors.left: parent.right;
+//                        anchors.leftMargin: width / 2;
+                    }
                 }
             }
         }
     }
     //*/
+
 }

@@ -6,6 +6,17 @@ import "../resources" as Resources;
 Button{
     id: button;
 
+//    property string type: "default";
+//    property variant elementType:
+//        ["default",
+//        "primary",
+//        "infomation",
+//        "danger",
+//        "success",
+//        "warning",
+//        "inverse",
+//        "disabled"];
+
     readonly property alias fondLoder: titleFont;
     Resources.MetroFontLoader{
         id: titleFont
